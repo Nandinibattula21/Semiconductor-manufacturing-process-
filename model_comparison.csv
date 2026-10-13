@@ -1,0 +1,6 @@
+Model,CV AP,Train accuracy,Test accuracy,Test ROC-AUC,Test AP,Recall @default,F1 @default,Threshold,Recall @tuned,Precision @tuned,F1 @tuned
+Random Forest,0.219,1.0,0.933,0.764,0.187,0.0,0.0,0.101,0.667,0.147,0.241
+SVM (RBF),0.211,0.847,0.803,0.636,0.119,0.286,0.162,-0.029,0.286,0.111,0.16
+Gradient Boosting,0.209,0.943,0.885,0.699,0.126,0.095,0.1,0.414,0.286,0.143,0.19
+Logistic Regression,0.2,0.808,0.793,0.705,0.152,0.381,0.198,0.53,0.381,0.157,0.222
+Naive Bayes,0.152,0.856,0.841,0.734,0.197,0.333,0.219,0.634,0.238,0.147,0.182
